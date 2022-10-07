@@ -18,7 +18,7 @@ class Hider:
         """
         self._location = random.randint(1, 1000)
         self._distance = [0, 0] # start with two so get_hint always works
-    
+            
     def get_hint(self):
         """Gets a hint for the seeker.
 
